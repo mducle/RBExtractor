@@ -1,6 +1,8 @@
 {
-  "name": "Beamtime Citation & RB Allocation Inspector",
-  "description": "Scan DOI publications, research papers, and PDF documents to detect facility beamtime proposal identifiers (RB#######) and formal allocation acknowledgements.",
+  "name": "STFC ePubs & Beamtime Allocation Extractor",
+  "description": "Query STFC research publications, extract metadata (title, authors, year, DOI), and search DOI references for RB experiment numbers and beamtime allocation acknowledgements.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
